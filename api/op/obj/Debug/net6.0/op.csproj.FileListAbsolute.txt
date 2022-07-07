@@ -1,0 +1,14 @@
+D:\demo\api\op\bin\Debug\net6.0\op.exe
+D:\demo\api\op\bin\Debug\net6.0\op.dll
+D:\demo\api\op\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\demo\api\op\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\demo\api\op\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\demo\api\op\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\demo\api\op\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\demo\api\op\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\demo\api\op\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\demo\api\op\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\demo\api\op\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\demo\api\op\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\demo\api\op\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\demo\api\op\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
