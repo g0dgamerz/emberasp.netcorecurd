@@ -24,11 +24,11 @@ namespace API.Controllers
             var result = new ObjectResult(list);
             return result;
         }
-        [HttpGet("Getproduct")]
-        public IActionResult Get1Product(int pid)
+        [HttpGet("Getproduct/{id:int}")]
+        public IActionResult Get1Product(int id)
         {
             Product product = new Product();
-             product = _productService.GetProductRecord(pid);
+             product = _productService.GetProductRecord(id);
             return  new ObjectResult(product);
         }
         [HttpDelete]

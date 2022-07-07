@@ -46,7 +46,7 @@ namespace API.services
                     while (rdr.Read())
                     {
                         Product pro = new Product();
-                        pro.pid = Convert.ToInt32(rdr["id"]);
+                        pro.id = Convert.ToInt32(rdr["id"]);
                         pro.pname = rdr["pname"].ToString();
                         pro.descriptions = rdr["descriptions"].ToString();
                         pro.oprice = Convert.ToDecimal(rdr["oprice"]);
@@ -84,7 +84,7 @@ namespace API.services
                     con.Open();
                     dr = cmd.ExecuteReader();
                     dr.Read();
-                    pro.pid = Convert.ToInt32(dr["id"]);
+                    pro.id = Convert.ToInt32(dr["id"]);
                     pro.pname = dr["pname"].ToString();
                     pro.descriptions = dr["descriptions"].ToString();
                     pro.oprice = Convert.ToDecimal(dr["oprice"]);
@@ -138,7 +138,7 @@ namespace API.services
                 {
                     var cmd = new SqlCommand("proUpdate", con);
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@id", pro.pid);
+                    cmd.Parameters.AddWithValue("@id", pro.id);
                     cmd.Parameters.AddWithValue("@pname", pro.pname);
                     cmd.Parameters.AddWithValue("@description", pro.descriptions);
                     cmd.Parameters.AddWithValue("@oprice", pro.oprice);

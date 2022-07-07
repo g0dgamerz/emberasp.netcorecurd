@@ -2,7 +2,7 @@
 {
     public class Product
     {
-        public int pid { get; set; }
+        public int id { get; set; }
         public string? pname { get; set; }
        // public Category? category { get; set; }
         public string? descriptions { get; set; }

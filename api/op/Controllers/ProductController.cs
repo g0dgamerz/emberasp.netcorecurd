@@ -7,11 +7,11 @@ namespace op.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class ProductsController: ControllerBase
+    public class Productontroller: ControllerBase
     {
         private readonly StoreContext _context;
 
-        public ProductsController(StoreContext context)
+        public Productontroller(StoreContext context)
         {
             _context = context;
         }
